@@ -1,0 +1,40 @@
+
+.topnav{
+    background-color: black;    
+    overflow: hidden;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.topnav .container {
+    max-width: 1240px; 
+    margin: 0 auto;    
+}
+
+.topnav a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 14px 15px;
+    float: left;
+    text-align: space-between;
+}
+
+.topnav a:hover {
+    color: rgba(255, 255, 255, 0.568);
+  }
+
+  .container{
+    display: flex;
+    align-items: center;
+  }
+  
+.topnav img{
+    width: auto;
+    height: 60px;
+}
+
+ body{
+    margin: 0;
+ }
